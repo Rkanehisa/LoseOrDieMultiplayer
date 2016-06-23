@@ -1,9 +1,10 @@
-﻿Log file open, 06/23/16 03:24:22
+﻿Log file open, 06/23/16 18:09:57
 LogInit:Display: Running engine for game: LoseOrDie_Multi
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-358171537) SRandInit(-358171536).
+LogInit:Display: RandInit(-1943184305) SRandInit(-1943184304).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.067392
+LogStats: Stats thread started at 0.947813
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.2
 LogInit: Version: 4.12.3-3013449+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3013449
@@ -26,7 +27,7 @@ LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.12
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Gabriel/Programs/Unreal4/Epic Games/4.12/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
@@ -44,753 +45,716 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.06.23-06.24.22:945][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.23-06.24.22:945][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.06.23-06.24.22:955][  0]LogInit: Computer: RKANEHISA-PC
-[2016.06.23-06.24.22:955][  0]LogInit: User: RKanehisa
-[2016.06.23-06.24.22:955][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.06.23-06.24.22:955][  0]LogInit: High frequency timer resolution =3.215390 MHz
-[2016.06.23-06.24.22:955][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
-[2016.06.23-06.24.22:955][  0]LogMemory: Platform Memory Stats for Windows
-[2016.06.23-06.24.22:955][  0]LogMemory: Process Physical Memory: 191.04 MB used, 191.04 MB peak
-[2016.06.23-06.24.22:955][  0]LogMemory: Process Virtual Memory: 196.30 MB used, 196.30 MB peak
-[2016.06.23-06.24.22:955][  0]LogMemory: Physical Memory: 6651.99 MB used, 12141.12 MB total
-[2016.06.23-06.24.22:955][  0]LogMemory: Virtual Memory: 523.84 MB used, 8388608.00 MB total
-[2016.06.23-06.24.23:394][  0]LogD3D11RHI: D3D11 adapters:
-[2016.06.23-06.24.23:410][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
-[2016.06.23-06.24.23:410][  0]LogD3D11RHI:       1992/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2016.06.23-06.24.23:415][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics' (Feature Level 10_0)
-[2016.06.23-06.24.23:415][  0]LogD3D11RHI:       128/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2016.06.23-06.24.23:415][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.06.23-06.24.23:419][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.06.23-06.24.23:419][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
-[2016.06.23-06.24.23:419][  0]LogWindows: EnumDisplayDevices:
-[2016.06.23-06.24.23:420][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
-[2016.06.23-06.24.23:420][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
-[2016.06.23-06.24.23:420][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
-[2016.06.23-06.24.23:420][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
-[2016.06.23-06.24.23:420][  0]LogWindows:    4. 'Intel(R) HD Graphics' (P:0 D:0)
-[2016.06.23-06.24.23:420][  0]LogWindows:    5. 'Intel(R) HD Graphics' (P:0 D:0)
-[2016.06.23-06.24.23:420][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
-[2016.06.23-06.24.23:420][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2016.06.23-06.24.23:420][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
-[2016.06.23-06.24.23:421][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2016.06.23-06.24.23:421][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
-[2016.06.23-06.24.23:421][  0]LogD3D11RHI:   Driver Version: 368.39 (internal:10.18.13.6839, unified:368.39)
-[2016.06.23-06.24.23:421][  0]LogD3D11RHI:      Driver Date: 6-2-2016
-[2016.06.23-06.24.23:421][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.06.23-06.24.23:426][  0]LogD3D11RHI: Async texture creation enabled
-[2016.06.23-06.24.23:441][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2016.06.23-06.24.23:441][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Intermediate/Shaders/WorkingDirectory/9460/).
-[2016.06.23-06.24.23:441][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/RKANEH~1/AppData/Local/Temp/UnrealShaderWorkingDir/31E87C1B460AA91F7BA4928F75FF41C3/'.
-[2016.06.23-06.24.23:441][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.06.23-06.24.25:505][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.06.23-06.24.25:514][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.06.23-06.24.25:524][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.06.23-06.24.25:533][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.06.23-06.24.25:542][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.06.23-06.24.25:550][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.06.23-06.24.25:559][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.06.23-06.24.25:567][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.06.23-06.24.25:575][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.06.23-06.24.25:583][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.06.23-06.24.25:591][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.06.23-06.24.25:608][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.06.23-06.24.25:608][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.06.23-06.24.25:610][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.06.23-06.24.25:631][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.06.23-06.24.25:639][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.06.23-06.24.25:647][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.06.23-06.24.25:655][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.06.23-06.24.25:663][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.06.23-06.24.25:663][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.06.23-06.24.25:737][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.06.23-06.24.25:793][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/RKanehisa/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.06.23-06.24.25:794][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RKanehisa/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.06.23-06.24.25:794][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.06.23-06.24.25:794][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.06.23-06.24.25:794][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.06.23-06.24.25:794][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.06.23-06.24.25:810][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.06.23-06.24.25:821][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RKanehisa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.06.23-06.24.26:004][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.23-06.24.26:004][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.06.23-06.24.26:160][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.06.23-06.24.26:160][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.06.23-06.24.26:160][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.06.23-06.24.26:405][  0]LogAssetRegistry: FAssetRegistry took 0.0201 seconds to start up
-[2016.06.23-06.24.26:452][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.044529 seconds
-[2016.06.23-06.24.26:457][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2016.06.23-06.24.26:457][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
-[2016.06.23-06.24.26:457][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.06.23-06.24.26:463][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.06.23-06.24.26:659][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.23-06.24.26:659][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.23-06.24.27:261][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.06.23-06.24.27:457][  0]SourceControl: Info Source control is disabled
-[2016.06.23-06.24.27:486][  0]SourceControl: Info Source control is disabled
-[2016.06.23-06.24.27:492][  0]SourceControl: Info Source control is disabled
-[2016.06.23-06.24.27:499][  0]SourceControl: Info Source control is disabled
-[2016.06.23-06.24.27:704][  0]LogEngine: Initializing Engine...
-[2016.06.23-06.24.27:706][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.06.23-06.24.27:708][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.06.23-06.24.27:849][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.06.23-06.24.27:858][  0]LogInit: XAudio2 using 'Speakers (3- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.06.23-06.24.27:872][  0]LogInit: FAudioDevice initialized.
-[2016.06.23-06.24.27:898][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/RKanehisa/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.06.23-06.24.27:910][  0]LogInit: Texture streaming: Enabled
-[2016.06.23-06.24.27:940][  0]LogInit: Transaction tracking system initialized
-[2016.06.23-06.24.27:966][  0]BlueprintLog: New page: Editor Load
-[2016.06.23-06.24.28:057][  0]LocalizationService: Info Localization service is disabled
-[2016.06.23-06.24.28:132][  0]LogConsoleResponse:Display: 
-[2016.06.23-06.24.28:235][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.06.23-06.24.28:235][  0]LogCook:Display: Mobile HDR setting 1
-[2016.06.23-06.24.28:330][  0]LogFileCache: Scanning file cache for directory 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/' took 0.01s
-[2016.06.23-06.24.28:330][  0]SourceControl: Info Source control is disabled
-[2016.06.23-06.24.28:330][  0]Cmd: MAP LOAD FILE="F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Maps/MultiplayerLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.23-06.24.28:331][  0]LightingResults: New page: Lighting Build
-[2016.06.23-06.24.28:333][  0]MapCheck: New page: Map Check
-[2016.06.23-06.24.28:333][  0]LightingResults: New page: Lighting Build
-[2016.06.23-06.24.29:097][  0]LogAIModule: Creating AISystem for world MultiplayerLevel
-[2016.06.23-06.24.29:102][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.23-06.24.29:102][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.23-06.24.29:146][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.608ms to complete.
-[2016.06.23-06.24.29:146][  0]LogFileHelpers: Loading map 'MultiplayerLevel' took 0.816
-[2016.06.23-06.24.29:263][  0]LogCollectionManager: Loaded 0 collections in 0.001388 seconds
-[2016.06.23-06.24.29:299][  0]LogFileCache: Scanning file cache for directory 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Saved/Collections/' took 0.01s
-[2016.06.23-06.24.29:299][  0]LogFileCache: Scanning file cache for directory 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Developers/RKanehisa/Collections/' took 0.01s
-[2016.06.23-06.24.29:299][  0]LogFileCache: Scanning file cache for directory 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Collections/' took 0.01s
-[2016.06.23-06.24.29:299][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.06.23-06.24.29:308][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2066 classes and 378 folders.
-[2016.06.23-06.24.29:311][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.06.23-06.24.29:311][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.06.23-06.24.29:312][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2016.06.23-06.24.29:315][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.06.23-06.24.29:349][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.06.23-06.24.29:354][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.06.23-06.24.29:368][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.06.23-06.24.29:373][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.06.23-06.24.29:398][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.06.23-06.24.29:398][  0]LogLoad: Full Startup: 7.04 seconds (BP compile: 0.20 seconds)
-[2016.06.23-06.24.29:398][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.06.23-06.24.29:398][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.06.23-06.24.29:737][  0]LogOcInput: OculusInput pre-init called
-[2016.06.23-06.24.29:756][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.06.23-06.24.29:906][  0]LogRenderer: Reallocating scene render targets to support 1056x556 (Frame:2).
-[2016.06.23-06.24.30:407][  2]LogAssetRegistry: Asset discovery search completed in 4.0230 seconds
-[2016.06.23-06.24.30:407][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.06.23-06.24.30:407][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
-[2016.06.23-06.24.51:992][983]LogEditorFactories: Performing atomic reimport of [F:/Meus documentos/Unreal Projects/CubeNormals.png]
-[2016.06.23-06.24.51:992][983]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 F:/Meus documentos/Unreal Projects/CubeNormals.png)
-[2016.06.23-06.24.52:041][983]LogTexture:Display: Building textures: CubeNormals (BC5)
-[2016.06.23-06.24.52:179][983]LogEditorFactories: -- imported successfully
-[2016.06.23-06.24.56:479][399]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.24.56:579][399]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.24.56:586][399]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.24.56:610][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2016.06.23-06.24.56:613][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2016.06.23-06.24.56:617][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2016.06.23-06.24.56:620][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
-[2016.06.23-06.24.59:021][585]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.24.59:021][585]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.24.59:021][585]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.25.10:130][560]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.25.10:137][560]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.25.10:140][560]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.25.10:146][560]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.25.10:170][560]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2016.06.23-06.25.11:662][653]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.25.11:662][653]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.25.11:662][653]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.25.13:010][776]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.25.13:017][776]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.25.14:451][872]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.25.14:451][872]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.25.14:451][872]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.25.16:612][ 66]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.25.16:618][ 66]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.25.18:193][166]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
-[2016.06.23-06.25.18:193][166]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.25.18:193][166]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.25.24:544][735]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.25.24:552][735]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.25.26:008][831]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
-[2016.06.23-06.25.26:008][831]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.25.26:008][831]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.25.32:106][385]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.25.32:114][385]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.25.32:138][385]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2016.06.23-06.25.33:746][496]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.25.33:746][496]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.25.33:746][496]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.25.34:566][569]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.25.34:573][569]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.25.35:956][652]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.25.35:956][652]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.25.35:956][652]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.28.59:892][ 89]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.28.59:899][ 89]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.29.01:509][200]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.29.01:509][200]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.29.01:509][200]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.31.14:919][568]LogEditorFactories: Performing atomic reimport of [F:/Meus documentos/Unreal Projects/Cube.fbx]
-[2016.06.23-06.31.14:953][568]LogFbx: Loading FBX Scene from F:/Meus documentos/Unreal Projects/Cube.fbx
-[2016.06.23-06.31.14:958][568]LogFbx: FBX Scene Loaded Succesfully
-[2016.06.23-06.31.14:960][568]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
-[2016.06.23-06.31.14:962][568]LogFbx:Warning: Triangulating static mesh Cube
-[2016.06.23-06.31.15:005][568]LogStaticMesh: Building static mesh Cube...
-[2016.06.23-06.31.15:007][568]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Legacy/Meshes/Cube.Cube
-[2016.06.23-06.31.15:020][568]LogEditorFactories: -- imported successfully
-[2016.06.23-06.31.17:345][699]LogRenderer: Reallocating scene render targets to support 1252x892 (Frame:12819).
-[2016.06.23-06.33.47:526][431]LogEditorFactories: Performing atomic reimport of [F:/Meus documentos/Unreal Projects/Cube.fbx]
-[2016.06.23-06.33.47:559][431]LogFbx: Loading FBX Scene from F:/Meus documentos/Unreal Projects/Cube.fbx
-[2016.06.23-06.33.47:565][431]LogFbx: FBX Scene Loaded Succesfully
-[2016.06.23-06.33.47:566][431]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
-[2016.06.23-06.33.47:567][431]LogFbx:Warning: Triangulating static mesh Cube
-[2016.06.23-06.33.47:599][431]LogStaticMesh: Building static mesh Cube...
-[2016.06.23-06.33.47:603][431]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Legacy/Meshes/Cube.Cube
-[2016.06.23-06.33.47:610][431]LogEditorFactories: -- imported successfully
-[2016.06.23-06.34.14:439][576]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.34.14:446][576]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.34.15:962][728]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.34.15:962][728]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.34.15:962][728]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.34.16:549][798]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.34.16:556][798]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.34.17:823][933]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.34.17:823][933]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.34.17:823][933]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.34.22:636][510]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.34.22:643][510]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.34.23:986][652]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.34.23:986][652]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.34.23:986][652]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.34.33:038][736]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.34.33:045][736]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.34.34:346][878]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.34.34:346][878]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.34.34:346][878]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.34.36:597][146]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.34.36:604][146]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.34.37:887][274]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.34.37:887][274]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.34.37:887][274]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.34.46:738][328]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.34.46:745][328]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.34.47:944][438]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.34.47:944][438]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.34.47:944][438]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.34.52:801][ 20]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.34.52:808][ 20]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.34.54:048][150]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.34.54:048][150]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.34.54:048][150]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.34.57:677][585]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.34.57:684][585]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.34.58:852][695]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.34.58:852][695]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.34.58:852][695]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.35.02:013][ 72]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.35.02:020][ 72]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.35.03:144][170]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.35.03:144][170]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.35.03:144][170]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.35.03:698][235]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.35.03:705][235]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.35.05:013][373]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.35.05:013][373]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.35.05:013][373]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.35.10:881][ 74]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.35.10:888][ 74]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.35.12:164][212]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.35.12:164][212]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.35.12:164][212]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.35.14:863][534]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.35.14:870][534]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.35.16:165][671]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.35.16:165][671]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.35.16:165][671]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.35.22:878][472]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.35.22:886][472]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.35.24:225][612]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.35.24:232][612]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.35.26:181][799]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.35.26:181][799]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.35.26:181][799]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.35.39:798][424]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.35.39:806][424]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.35.41:062][555]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.35.41:063][555]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.35.41:063][555]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.35.46:316][184]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.35.46:323][184]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.35.47:562][309]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.35.47:562][309]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.35.47:562][309]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.35.52:376][886]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.35.52:383][886]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.35.53:614][ 15]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.35.53:614][ 15]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.35.53:614][ 15]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.35.56:317][338]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.35.56:324][338]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.35.57:563][466]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.35.57:564][466]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.35.57:564][466]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.36.04:671][317]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.36.04:678][317]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.36.06:206][474]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.36.06:206][474]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.36.06:206][474]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.36.25:029][728]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.36.25:037][728]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.36.26:266][850]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.36.26:266][850]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.36.26:266][850]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.36.26:827][916]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.36.26:834][916]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.36.28:040][ 36]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.36.28:040][ 36]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.36.28:040][ 36]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.36.32:124][525]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.36.32:132][525]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.36.33:339][645]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.36.33:339][645]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.36.33:339][645]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.37.15:322][188]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MultiplayerLevel' took 0.030
-[2016.06.23-06.37.15:323][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Legacy/Textures/CubeNormals] ([1] browsable assets)...
-[2016.06.23-06.37.15:335][188]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Legacy/Textures/CubeNormals.CubeNormals]
-[2016.06.23-06.37.15:335][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Legacy/Textures/CubeNormals]
-[2016.06.23-06.37.15:368][188]LogSavePackage: Save=22.17ms
-[2016.06.23-06.37.15:368][188]LogSavePackage: Moving 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Saved/CubeNormals_Auto15A22949C4A1878AD6364439BDAEAC5FE.tmp' to 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Saved/Autosaves/Game/Assets/Legacy/Textures/CubeNormals_Auto1.uasset'
-[2016.06.23-06.37.15:369][188]LogSavePackage:Display: Finished SavePackage F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Saved/Autosaves/Game/Assets/Legacy/Textures/CubeNormals_Auto1.uasset
-[2016.06.23-06.37.15:369][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Legacy/Meshes/Cube] ([1] browsable assets)...
-[2016.06.23-06.37.15:405][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Legacy/Meshes/Cube.Cube]
-[2016.06.23-06.37.15:405][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Legacy/Meshes/Cube]
-[2016.06.23-06.37.15:426][188]LogSavePackage: Save=12.71ms
-[2016.06.23-06.37.15:426][188]LogSavePackage: Moving 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Saved/Cube_Auto14C68182A41FC5CFA279B83B2BA166E3A.tmp' to 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Saved/Autosaves/Game/Assets/Legacy/Meshes/Cube_Auto1.uasset'
-[2016.06.23-06.37.15:426][188]LogSavePackage:Display: Finished SavePackage F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Saved/Autosaves/Game/Assets/Legacy/Meshes/Cube_Auto1.uasset
-[2016.06.23-06.37.15:426][188]LogFileHelpers: Auto-saving content packages took 0.103
-[2016.06.23-06.37.54:175][594]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.37.54:182][594]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.37.55:753][761]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.37.55:753][761]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.37.55:754][761]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.38.00:075][277]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.38.00:082][277]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.38.01:438][418]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.38.01:438][418]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.38.01:438][418]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.38.04:374][769]LogMaterialEditor: Applying material M_Cube
-[2016.06.23-06.38.04:752][769]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.38.04:767][769]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.38.04:799][769]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.38.04:818][769]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.38.04:830][769]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.38.07:780][  3]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
-[2016.06.23-06.38.07:780][  3]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.38.07:780][  3]MaterialEditorStats: Info Texture samplers: 5/16
-[2016.06.23-06.39.30:697][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Legacy/Meshes/Cube" FILE="F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Meshes/Cube.uasset" SILENT=true
-[2016.06.23-06.39.30:708][751]LogSavePackage: Save=5.29ms
-[2016.06.23-06.39.30:708][751]LogSavePackage: Moving 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Saved/Cube7D89857342D128E170DF46804DB52AD1.tmp' to 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Meshes/Cube.uasset'
-[2016.06.23-06.39.30:711][751]LogSavePackage:Display: Finished SavePackage F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Meshes/Cube.uasset
-[2016.06.23-06.39.52:102][623]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
-[2016.06.23-06.40.31:397][343]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.40.31:404][343]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.40.31:406][343]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.40.31:413][343]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.40.31:437][343]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2016.06.23-06.40.33:109][506]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.40.33:109][506]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.40.33:109][506]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.40.34:081][620]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
-[2016.06.23-06.40.37:088][974]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.40.37:089][974]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Cube for platform PCD3D_SM5, Default Material will be used in game.
-[2016.06.23-06.40.37:089][974]LogMaterial:Warning: 	(Node TextureCoordinate) Only 8 texture coordinate sets can be used by this feature level, currently using 11
-[2016.06.23-06.40.37:089][974]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.40.37:116][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
-[2016.06.23-06.40.37:117][974]MaterialEditorStats:Error: Error [SM5] (Node TextureCoordinate) Only 8 texture coordinate sets can be used by this feature level, currently using 11
-[2016.06.23-06.40.41:791][530]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.40.41:799][530]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.40.41:826][530]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
-[2016.06.23-06.40.43:144][649]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.40.43:144][649]MaterialEditorStats: Info Vertex shader: 30 instructions
-[2016.06.23-06.40.43:144][649]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.40.44:472][804]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.40.44:479][804]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.40.44:502][804]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
-[2016.06.23-06.40.46:514][ 17]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
-[2016.06.23-06.40.46:514][ 17]MaterialEditorStats: Info Vertex shader: 30 instructions
-[2016.06.23-06.40.46:514][ 17]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.40.52:775][764]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.40.52:782][764]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.40.52:808][764]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
-[2016.06.23-06.40.54:798][978]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.40.54:799][978]MaterialEditorStats: Info Vertex shader: 30 instructions
-[2016.06.23-06.40.54:799][978]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.40.57:837][341]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.40.57:845][341]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.40.57:868][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2016.06.23-06.40.59:156][457]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.40.59:156][457]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.40.59:156][457]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.41.13:838][204]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.41.13:845][204]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.41.13:873][204]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2016.06.23-06.41.15:740][415]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.41.15:740][415]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.41.15:740][415]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.41.21:786][137]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.41.21:793][137]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.41.21:817][137]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2016.06.23-06.41.23:577][322]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.41.23:577][322]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.41.23:577][322]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.41.56:889][401]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.41.56:896][401]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.41.58:587][577]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.41.58:587][577]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.41.58:587][577]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.41.59:482][684]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.41.59:489][684]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.42.01:379][902]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.42.01:379][902]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.42.01:379][902]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.42.07:225][603]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.42.07:232][603]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.42.08:992][798]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.42.08:992][798]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.42.08:992][798]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.42.11:236][ 67]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.42.11:244][ 67]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.42.12:949][254]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.42.12:949][254]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.42.12:949][254]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.42.15:051][505]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.42.15:058][505]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.42.16:752][679]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.42.16:752][679]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.42.16:752][679]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.42.19:776][ 37]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.42.19:784][ 37]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.42.21:589][241]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.42.21:589][241]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.42.21:589][241]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.42.22:415][339]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.42.22:422][339]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.42.24:339][531]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.42.24:339][531]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.42.24:339][531]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.42.27:269][882]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.42.27:276][882]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.42.28:972][ 62]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.42.28:972][ 62]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.42.28:972][ 62]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.42.41:419][295]LogMaterial: Missing cached shader map for material M_Hologram, compiling. 
-[2016.06.23-06.42.41:500][295]LogMaterial: Missing cached shader map for material M_Hologram, compiling. 
-[2016.06.23-06.42.41:509][295]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.42.41:535][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2016.06.23-06.42.45:114][691]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
-[2016.06.23-06.42.45:114][691]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 64 instructions
-[2016.06.23-06.42.45:114][691]MaterialEditorStats: Info Vertex shader: 66 instructions
-[2016.06.23-06.42.45:114][691]MaterialEditorStats: Info Texture samplers: 4/16
-[2016.06.23-06.42.52:564][580]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.42.52:577][580]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.42.52:585][580]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.42.56:178][980]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
-[2016.06.23-06.42.56:178][980]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 71 instructions
-[2016.06.23-06.42.56:178][980]MaterialEditorStats: Info Vertex shader: 68 instructions
-[2016.06.23-06.42.56:178][980]MaterialEditorStats: Info Texture samplers: 5/16
-[2016.06.23-06.43.02:679][756]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.43.02:692][756]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.43.02:700][756]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.43.07:393][243]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
-[2016.06.23-06.43.07:393][243]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 72 instructions
-[2016.06.23-06.43.07:393][243]MaterialEditorStats: Info Vertex shader: 68 instructions
-[2016.06.23-06.43.07:393][243]MaterialEditorStats: Info Texture samplers: 5/16
-[2016.06.23-06.43.16:004][271]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.43.16:005][271]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Cube for platform PCD3D_SM5, Default Material will be used in game.
-[2016.06.23-06.43.16:005][271]LogMaterial:Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
-[2016.06.23-06.43.16:005][271]LogMaterial:Warning: 	Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
-[2016.06.23-06.43.16:009][271]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.43.16:010][271]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Cube for platform PCD3D_SM5, Default Material will be used in game.
-[2016.06.23-06.43.16:010][271]LogMaterial:Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
-[2016.06.23-06.43.16:010][271]LogMaterial:Warning: 	Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
-[2016.06.23-06.43.16:010][271]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.43.16:012][271]MaterialEditorStats:Error: Error [SM5] Dynamically lit translucency is not supported for BLEND_Modulate materials.
-[2016.06.23-06.43.16:012][271]MaterialEditorStats:Error: Error [SM5] Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
-[2016.06.23-06.43.25:765][436]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.43.25:776][436]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.43.25:783][436]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.43.27:517][620]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.43.27:517][620]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.43.27:517][620]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.43.29:213][822]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.43.29:220][822]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.43.30:931][  2]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.43.30:931][  2]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.43.30:931][  2]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.45.14:039][231]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.45.14:047][231]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.45.15:551][375]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.45.15:551][375]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.45.15:551][375]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.45.18:649][744]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.45.18:656][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.45.20:003][872]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.45.20:003][872]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.45.20:003][872]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.45.22:411][160]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.45.22:418][160]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.45.23:780][303]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.06.23-06.45.23:780][303]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.45.23:780][303]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.06.23-06.45.27:976][805]LogMaterialEditor: Applying material M_Cube
-[2016.06.23-06.45.28:351][805]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.45.28:366][805]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.45.28:389][805]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.45.28:407][805]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
-[2016.06.23-06.45.28:420][805]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.06.23-06.45.31:544][ 41]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
-[2016.06.23-06.45.31:545][ 41]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.06.23-06.45.31:545][ 41]MaterialEditorStats: Info Texture samplers: 5/16
-[2016.06.23-06.45.46:209][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Legacy/Meshes/Cube" FILE="F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Meshes/Cube.uasset" SILENT=true
-[2016.06.23-06.45.46:223][786]LogSavePackage: Save=4.83ms
-[2016.06.23-06.45.46:223][786]LogSavePackage: Moving 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Saved/Cube7739AA044B18479A04228F835FB48CA9.tmp' to 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Meshes/Cube.uasset'
-[2016.06.23-06.45.46:223][786]LogSavePackage:Display: Finished SavePackage F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Meshes/Cube.uasset
-[2016.06.23-06.45.48:331][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Legacy/Textures/CubeNormals" FILE="F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Textures/CubeNormals.uasset" SILENT=true
-[2016.06.23-06.45.48:411][970]LogSavePackage: Save=70.22ms
-[2016.06.23-06.45.48:411][970]LogSavePackage: Moving 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Saved/CubeNormals40078DD147FF27A98D637D9268258D92.tmp' to 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Textures/CubeNormals.uasset'
-[2016.06.23-06.45.48:413][970]LogSavePackage:Display: Finished SavePackage F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Textures/CubeNormals.uasset
-[2016.06.23-06.45.48:433][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Legacy/Materials/M_Cube" FILE="F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Materials/M_Cube.uasset" SILENT=true
-[2016.06.23-06.45.48:456][970]LogSavePackage: Save=14.27ms
-[2016.06.23-06.45.48:456][970]LogSavePackage: Moving 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Saved/M_CubeFA474FB643C215C7C6A81E9908276CF3.tmp' to 'F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Materials/M_Cube.uasset'
-[2016.06.23-06.45.48:457][970]LogSavePackage:Display: Finished SavePackage F:/Meus documentos/Unreal Projects/LoseOrDie_Multi/Content/Assets/Legacy/Materials/M_Cube.uasset
-[2016.06.23-06.45.55:931][596]Cmd: QUIT_EDITOR
-[2016.06.23-06.45.55:982][596]LogExit: Preparing to exit.
-[2016.06.23-06.45.56:511][596]LogExit: Editor shut down
-[2016.06.23-06.45.56:512][596]LogExit: Transaction tracking system shut down
-[2016.06.23-06.45.56:657][596]LogObj: Freed 0b from 0 cluster array pools.
-[2016.06.23-06.45.56:657][596]LogExit: Object subsystem successfully closed.
-[2016.06.23-06.45.56:666][596]LogD3D11RHI: Shutdown
-[2016.06.23-06.45.56:666][596]LogD3D11RHI: CleanupD3DDevice
-[2016.06.23-06.45.56:719][596]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.06.23-06.45.56:730][596]LogModuleManager: Shutting down and abandoning module BlueprintGraph (218)
-[2016.06.23-06.45.56:730][596]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (217)
-[2016.06.23-06.45.56:730][596]LogModuleManager: Shutting down and abandoning module MaterialEditor (216)
-[2016.06.23-06.45.56:730][596]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
-[2016.06.23-06.45.56:730][596]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
-[2016.06.23-06.45.56:730][596]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
-[2016.06.23-06.45.56:730][596]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
-[2016.06.23-06.45.56:730][596]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
-[2016.06.23-06.45.56:731][596]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
-[2016.06.23-06.45.56:731][596]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
-[2016.06.23-06.45.56:731][596]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
-[2016.06.23-06.45.56:731][596]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
-[2016.06.23-06.45.56:731][596]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
-[2016.06.23-06.45.56:731][596]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
-[2016.06.23-06.45.56:731][596]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
-[2016.06.23-06.45.56:731][596]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
-[2016.06.23-06.45.56:731][596]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module BspMode (200)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module SessionServices (190)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
-[2016.06.23-06.45.56:732][596]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
-[2016.06.23-06.45.57:364][596]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
-[2016.06.23-06.45.57:364][596]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
-[2016.06.23-06.45.57:364][596]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
-[2016.06.23-06.45.57:364][596]LogModuleManager: Shutting down and abandoning module MergeActors (178)
-[2016.06.23-06.45.57:364][596]LogModuleManager: Shutting down and abandoning module SizeMap (177)
-[2016.06.23-06.45.57:364][596]LogModuleManager: Shutting down and abandoning module TreeMap (176)
-[2016.06.23-06.45.57:364][596]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
-[2016.06.23-06.45.57:364][596]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
-[2016.06.23-06.45.57:364][596]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
-[2016.06.23-06.45.57:364][596]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module XmlParser (168)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module Blutility (167)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
-[2016.06.23-06.45.57:365][596]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module AutomationController (156)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module Layers (154)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module Persona (150)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module Kismet (149)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module Toolbox (146)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module OutputLog (143)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module GammaUI (142)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module Documentation (141)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module Analytics (138)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module PortalServices (137)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module AIModule (132)
-[2016.06.23-06.45.57:416][596]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module SlateRemote (129)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module SteamVRController (128)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module SteamVR (127)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (126)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module OculusLibrary (125)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module OculusInput (124)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (123)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module CableComponent (122)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (121)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (120)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module LowEntryExtendedStandardLibraryEditor (119)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module LowEntryExtendedStandardLibrary (118)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2016.06.23-06.45.57:530][596]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2016.06.23-06.45.57:531][596]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2016.06.23-06.45.57:531][596]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
-[2016.06.23-06.45.57:531][596]LogModuleManager: Shutting down and abandoning module HotReload (99)
-[2016.06.23-06.45.57:531][596]LogModuleManager: Shutting down and abandoning module MainFrame (98)
-[2016.06.23-06.45.57:531][596]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
-[2016.06.23-06.45.57:532][596]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2016.06.23-06.45.57:532][596]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2016.06.23-06.45.57:532][596]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module Paper2D (92)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module Media (90)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module VREditor (84)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
-[2016.06.23-06.45.57:632][596]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
-[2016.06.23-06.45.57:633][596]LogModuleManager: Shutting down and abandoning module Sequencer (78)
-[2016.06.23-06.45.57:633][596]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.06.23-06.45.57:633][596]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.06.23-06.45.57:633][596]LogModuleManager: Shutting down and abandoning module AssetTools (75)
-[2016.06.23-06.45.57:633][596]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
-[2016.06.23-06.45.57:633][596]LogModuleManager: Shutting down and abandoning module UMG (73)
-[2016.06.23-06.45.57:633][596]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
-[2016.06.23-06.45.57:633][596]LogModuleManager: Shutting down and abandoning module Slate (71)
-[2016.06.23-06.45.57:633][596]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
-[2016.06.23-06.45.57:635][596]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
-[2016.06.23-06.45.57:635][596]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
-[2016.06.23-06.45.57:635][596]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
-[2016.06.23-06.45.57:635][596]LogModuleManager: Shutting down and abandoning module Networking (65)
-[2016.06.23-06.45.57:635][596]LogModuleManager: Shutting down and abandoning module Core (64)
-[2016.06.23-06.45.57:635][596]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
-[2016.06.23-06.45.57:635][596]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
-[2016.06.23-06.45.57:769][596]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.06.23-06.45.57:769][596]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.06.23-06.45.57:769][596]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.06.23-06.45.57:769][596]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
-[2016.06.23-06.45.57:776][596]LogDerivedDataCache: Shutdown
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.06.23-06.45.57:776][596]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.06.23-06.45.57:777][596]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.06.23-06.45.59:277][596]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.06.23-06.45.59:278][596]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.06.23-06.45.59:278][596]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.06.23-06.45.59:278][596]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.06.23-06.45.59:278][596]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.06.23-06.45.59:278][596]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.06.23-06.45.59:278][596]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.06.23-06.45.59:280][596]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.06.23-06.45.59:280][596]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.06.23-06.45.59:280][596]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.06.23-06.45.59:280][596]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.06.23-06.45.59:280][596]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.06.23-06.45.59:280][596]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.06.23-06.45.59:280][596]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.06.23-06.45.59:280][596]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.06.23-06.45.59:280][596]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.06.23-06.45.59:280][596]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.06.23-06.45.59:281][596]LogExit: Exiting.
-[2016.06.23-06.45.59:283][596]Log file closed, 06/23/16 03:45:59
+[2016.06.23-21.09.57:545][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.23-21.09.57:545][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.23-21.09.57:589][  0]LogInit: Computer: HP
+[2016.06.23-21.09.57:589][  0]LogInit: User: SAA
+[2016.06.23-21.09.57:589][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.06.23-21.09.57:589][  0]LogInit: High frequency timer resolution =2.435775 MHz
+[2016.06.23-21.09.57:589][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.06.23-21.09.57:589][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.23-21.09.57:589][  0]LogMemory: Process Physical Memory: 190.45 MB used, 190.45 MB peak
+[2016.06.23-21.09.57:590][  0]LogMemory: Process Virtual Memory: 195.16 MB used, 195.16 MB peak
+[2016.06.23-21.09.57:590][  0]LogMemory: Physical Memory: 5588.68 MB used, 16316.02 MB total
+[2016.06.23-21.09.57:590][  0]LogMemory: Virtual Memory: 553.96 MB used, 134217728.00 MB total
+[2016.06.23-21.09.59:079][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2016.06.23-21.10.00:375][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.23-21.10.00:404][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
+[2016.06.23-21.10.00:404][  0]LogD3D11RHI:       1995/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.06.23-21.10.00:410][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.06.23-21.10.00:410][  0]LogD3D11RHI:       112/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.06.23-21.10.00:411][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.06.23-21.10.00:411][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.06.23-21.10.00:411][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.23-21.10.00:416][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.23-21.10.00:416][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
+[2016.06.23-21.10.00:416][  0]LogWindows: EnumDisplayDevices:
+[2016.06.23-21.10.00:416][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2016.06.23-21.10.00:417][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.06.23-21.10.00:417][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.06.23-21.10.00:417][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.06.23-21.10.00:417][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
+[2016.06.23-21.10.00:417][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.06.23-21.10.00:417][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.06.23-21.10.00:417][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.23-21.10.00:429][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.23-21.10.00:454][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.06.23-21.10.00:454][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Intermediate/Shaders/WorkingDirectory/13352/).
+[2016.06.23-21.10.00:454][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SAA/AppData/Local/Temp/UnrealShaderWorkingDir/322E24DD49193E34E5279DB272E667B5/'.
+[2016.06.23-21.10.00:454][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.23-21.10.08:433][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.23-21.10.08:450][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.23-21.10.08:467][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.23-21.10.08:483][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.23-21.10.08:500][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.23-21.10.08:543][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.23-21.10.08:559][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.23-21.10.08:575][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.23-21.10.08:590][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.23-21.10.08:607][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.23-21.10.08:622][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.23-21.10.08:655][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.23-21.10.08:655][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.23-21.10.08:663][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.23-21.10.08:780][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.23-21.10.08:819][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.06.23-21.10.08:844][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.23-21.10.08:858][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.23-21.10.08:884][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.23-21.10.08:884][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.23-21.10.09:976][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.23-21.10.10:803][  0]LogDerivedDataCache: Loaded boot cache 0.81s 48MB C:/Users/SAA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.06.23-21.10.10:803][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SAA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.06.23-21.10.10:804][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.23-21.10.10:804][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.23-21.10.10:804][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.23-21.10.10:804][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.23-21.10.10:946][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.23-21.10.10:977][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SAA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.23-21.10.16:197][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.23-21.10.16:406][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.06.23-21.10.18:686][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.23-21.10.18:686][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.23-21.10.18:686][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.06.23-21.10.25:092][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2016.06.23-21.10.25:306][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.171572 seconds
+[2016.06.23-21.10.25:311][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.06.23-21.10.25:311][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.06.23-21.10.25:311][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.23-21.10.25:325][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.23-21.10.39:962][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.23-21.10.39:962][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.23-21.11.03:812][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.23-21.11.06:626][  0]SourceControl: Info Source control is disabled
+[2016.06.23-21.11.10:390][  0]SourceControl: Info Source control is disabled
+[2016.06.23-21.11.10:495][  0]SourceControl: Info Source control is disabled
+[2016.06.23-21.11.10:562][  0]SourceControl: Info Source control is disabled
+[2016.06.23-21.11.12:540][  0]LogEngine: Initializing Engine...
+[2016.06.23-21.11.12:891][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.06.23-21.11.12:896][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.06.23-21.11.14:154][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.23-21.11.14:197][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.23-21.11.14:218][  0]LogInit: FAudioDevice initialized.
+[2016.06.23-21.11.14:242][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/SAA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.06.23-21.11.14:246][  0]LogInit: Texture streaming: Enabled
+[2016.06.23-21.11.14:432][  0]LogInit: Transaction tracking system initialized
+[2016.06.23-21.11.14:660][  0]BlueprintLog: New page: Editor Load
+[2016.06.23-21.11.16:000][  0]LocalizationService: Info Localization service is disabled
+[2016.06.23-21.11.16:843][  0]LogConsoleResponse:Display: 
+[2016.06.23-21.11.23:293][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.06.23-21.11.23:293][  0]LogCook:Display: Mobile HDR setting 1
+[2016.06.23-21.11.24:523][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/' took 0.04s
+[2016.06.23-21.11.28:396][  0]SourceControl: Info Source control is disabled
+[2016.06.23-21.11.28:396][  0]Cmd: MAP LOAD FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Maps/MultiplayerLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.23-21.11.28:445][  0]LightingResults: New page: Lighting Build
+[2016.06.23-21.11.28:449][  0]MapCheck: New page: Map Check
+[2016.06.23-21.11.28:449][  0]LightingResults: New page: Lighting Build
+[2016.06.23-21.11.35:354][  0]LogAIModule: Creating AISystem for world MultiplayerLevel
+[2016.06.23-21.11.35:645][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.23-21.11.35:646][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.23-21.11.35:752][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.152ms to complete.
+[2016.06.23-21.11.35:752][  0]LogFileHelpers: Loading map 'MultiplayerLevel' took 7.356
+[2016.06.23-21.11.36:224][  0]LogCollectionManager: Loaded 0 collections in 0.002247 seconds
+[2016.06.23-21.11.36:266][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/Collections/' took 0.01s
+[2016.06.23-21.11.36:266][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Developers/SAA/Collections/' took 0.01s
+[2016.06.23-21.11.36:266][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Collections/' took 0.01s
+[2016.06.23-21.11.36:266][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.06.23-21.11.36:274][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2066 classes and 378 folders.
+[2016.06.23-21.11.36:278][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.06.23-21.11.36:278][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.06.23-21.11.36:279][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.06.23-21.11.36:284][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.06.23-21.11.39:309][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.06.23-21.11.39:409][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.06.23-21.11.39:558][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.23-21.11.39:565][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.23-21.11.39:672][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.06.23-21.11.39:672][  0]LogLoad: Full Startup: 112.02 seconds (BP compile: 0.61 seconds)
+[2016.06.23-21.11.39:672][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.06.23-21.11.39:685][  0]LogOcInput: OculusInput pre-init called
+[2016.06.23-21.11.39:687][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.2
+[2016.06.23-21.11.39:706][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.23-21.11.40:924][  0]LogRenderer: Reallocating scene render targets to support 1256x632 (Frame:2).
+[2016.06.23-21.11.40:998][  1]LogAssetRegistry: Asset discovery search completed in 75.9281 seconds
+[2016.06.23-21.11.40:998][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.06.23-21.11.40:998][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2016.06.23-21.12.46:256][720]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.06.23-21.12.46:256][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.23-21.12.46:338][720]PIE: New page: PIE session: MultiplayerLevel (Jun 23, 2016, 3:12:46 PM)
+[2016.06.23-21.12.46:338][720]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MultiplayerLevel
+[2016.06.23-21.12.46:344][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006180s)
+[2016.06.23-21.12.46:344][720]LogAIModule: Creating AISystem for world MultiplayerLevel
+[2016.06.23-21.12.46:344][720]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2016.06.23-21.12.46:345][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MultiplayerLevel.MultiplayerLevel to /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel (0.006921s)
+[2016.06.23-21.12.46:379][720]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.23-21.12.46:394][720]LogInit: FAudioDevice initialized.
+[2016.06.23-21.12.46:472][720]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.23-21.12.46:476][720]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel up for play (max tick rate 0) at 2016.06.23-18.12.46
+[2016.06.23-21.12.46:476][720]LogWorld: Bringing up level for play took: 0.002339
+[2016.06.23-21.12.46:481][720]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.06.23-21.12.46:642][720]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MultiplayerLevel 0.602
+[2016.06.23-21.12.46:642][720]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.06.23-21.12.46:679][720]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:557).
+[2016.06.23-21.13.21:201][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.06.23-21.13.21:289][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.06.23-21.13.41:863][148]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2016.06.23-21.14.07:644][420]BlueprintLog: New page: Compile ArrowUp
+[2016.06.23-21.14.07:812][420]BlueprintEditorCompileResults: Info [0260.16] Compile of ArrowUp successful! [in 168 ms] (/Game/Assets/BluePrint/ArrowUp.ArrowUp)
+[2016.06.23-21.14.58:015][671]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:5974).
+[2016.06.23-21.15.00:784][798]0.324425
+[2016.06.23-21.15.00:785][798]0.343908
+[2016.06.23-21.15.00:801][799]0.396381
+[2016.06.23-21.15.00:814][800]0.407450
+[2016.06.23-21.15.00:816][800]0.445366
+[2016.06.23-21.15.00:854][801]0.566441
+[2016.06.23-21.15.00:881][802]0.642886
+[2016.06.23-21.15.00:924][803]0.737894
+[2016.06.23-21.15.00:926][803]0.745720
+[2016.06.23-21.15.00:954][804]0.775045
+[2016.06.23-21.15.01:200][824]0.768931
+[2016.06.23-21.15.01:219][826]0.762910
+[2016.06.23-21.15.01:320][835]0.756984
+[2016.06.23-21.15.01:355][838]0.765607
+[2016.06.23-21.15.01:368][839]0.791735
+[2016.06.23-21.15.01:379][840]0.809356
+[2016.06.23-21.15.01:399][841]0.895409
+[2016.06.23-21.15.01:431][842]1.014757
+[2016.06.23-21.15.01:466][843]1.032564
+[2016.06.23-21.15.01:661][859]1.023646
+[2016.06.23-21.15.01:663][859]1.014757
+[2016.06.23-21.15.01:672][860]1.000434
+[2016.06.23-21.15.01:712][862]0.939696
+[2016.06.23-21.15.01:742][863]0.930821
+[2016.06.23-21.15.02:257][919]0.936342
+[2016.06.23-21.15.02:274][921]0.945165
+[2016.06.23-21.15.02:354][927]0.954021
+[2016.06.23-21.15.03:321][ 42]0.982706
+[2016.06.23-21.15.03:841][103]0.991555
+[2016.06.23-21.15.03:880][106]0.986123
+[2016.06.23-21.15.03:889][107]0.971825
+[2016.06.23-21.15.04:030][119]0.966507
+[2016.06.23-21.15.04:472][171]0.957540
+[2016.06.23-21.15.04:517][175]0.952257
+[2016.06.23-21.15.04:623][186]0.938021
+[2016.06.23-21.15.04:759][201]0.929012
+[2016.06.23-21.15.04:794][204]0.923800
+[2016.06.23-21.15.05:009][228]0.914771
+[2016.06.23-21.15.05:329][265]0.909596
+[2016.06.23-21.15.05:346][267]0.899520
+[2016.06.23-21.15.05:364][268]0.876239
+[2016.06.23-21.15.05:399][270]0.833984
+[2016.06.23-21.15.05:463][273]0.824761
+[2016.06.23-21.15.05:609][289]0.815566
+[2016.06.23-21.15.05:844][316]0.815566
+[2016.06.23-21.15.05:854][317]0.833984
+[2016.06.23-21.15.05:871][319]0.871334
+[2016.06.23-21.15.05:899][320]0.922801
+[2016.06.23-21.15.05:931][322]0.955271
+[2016.06.23-21.15.05:933][322]0.964484
+[2016.06.23-21.15.06:014][325]0.969366
+[2016.06.23-21.15.06:016][325]0.978557
+[2016.06.23-21.15.06:065][328]0.983479
+[2016.06.23-21.15.06:113][331]0.992649
+[2016.06.23-21.15.06:297][351]1.006759
+[2016.06.23-21.15.14:880][847]0.764898
+[2016.06.23-21.15.15:031][861]0.773994
+[2016.06.23-21.15.15:100][868]0.778188
+[2016.06.23-21.15.15:118][870]0.773363
+[2016.06.23-21.15.15:139][871]0.768648
+[2016.06.23-21.15.15:348][892]0.777979
+[2016.06.23-21.15.15:384][895]0.796722
+[2016.06.23-21.15.15:401][897]0.801271
+[2016.06.23-21.15.15:424][898]0.815233
+[2016.06.23-21.15.15:458][900]0.829222
+[2016.06.23-21.15.15:487][901]0.843235
+[2016.06.23-21.15.15:671][918]0.852514
+[2016.06.23-21.15.15:791][931]0.866526
+[2016.06.23-21.15.15:833][934]0.871334
+[2016.06.23-21.15.15:854][936]0.880563
+[2016.06.23-21.15.15:909][939]0.889818
+[2016.06.23-21.15.15:985][946]0.899098
+[2016.06.23-21.15.52:576][733]BlueprintLog: New page: Compile ArrowUp
+[2016.06.23-21.15.52:799][733]BlueprintEditorCompileResults: Info [0365.15] Compile of ArrowUp successful! [in 222 ms] (/Game/Assets/BluePrint/ArrowUp.ArrowUp)
+[2016.06.23-21.16.09:333][ 85]BlueprintLog: New page: Compile ArrowUp
+[2016.06.23-21.16.09:474][ 85]BlueprintEditorCompileResults: Info [0381.82] Compile of ArrowUp successful! [in 141 ms] (/Game/Assets/BluePrint/ArrowUp.ArrowUp)
+[2016.06.23-21.16.42:590][ 97]BlueprintLog: New page: Compile ArrowUp
+[2016.06.23-21.16.42:740][ 97]BlueprintEditorCompileResults: Info [0415.09] Compile of ArrowUp successful! [in 150 ms] (/Game/Assets/BluePrint/ArrowUp.ArrowUp)
+[2016.06.23-21.17.13:621][838]BlueprintLog: New page: Compile CarPlayerCharacter
+[2016.06.23-21.17.13:803][838]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.06.23-21.17.13:803][838]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.23-21.17.13:803][838]BlueprintEditorCompileResults: Info [0446.15] Compile of CarPlayerCharacter successful! [in 181 ms] (/Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter)
+[2016.06.23-21.18.39:099][782]BlueprintLog: New page: Compile CarPlayerCharacter
+[2016.06.23-21.18.39:275][782]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.06.23-21.18.39:275][782]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.23-21.18.39:275][782]BlueprintEditorCompileResults: Info [0531.62] Compile of CarPlayerCharacter successful! [in 175 ms] (/Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter)
+[2016.06.23-21.18.59:728][654]LogEditorTransaction: Undo Paste clipboard contents
+[2016.06.23-21.19.06:410][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_84.EdGraphPin_917''
+[2016.06.23-21.19.06:410][191]LogBlueprint:Warning: Compiler Warning Pasted node  CustomEvent   conflicted with  TurnFailPunish  and was replaced as a Custom Event!
+[2016.06.23-21.19.06:411][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_84.EdGraphPin_921''
+[2016.06.23-21.19.06:411][191]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_4 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.SpawnTrack.K2Node_Knot_4
+[2016.06.23-21.19.06:411][191]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_4 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.CreateTrack.K2Node_Knot_4
+[2016.06.23-21.19.06:411][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_4.EdGraphPin_497''
+[2016.06.23-21.19.06:411][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_110.EdGraphPin_933''
+[2016.06.23-21.19.06:411][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_110.EdGraphPin_934''
+[2016.06.23-21.19.06:411][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_83.EdGraphPin_928''
+[2016.06.23-21.19.06:412][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_111.EdGraphPin_938''
+[2016.06.23-21.19.06:412][191]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_5 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.SpawnTrack.K2Node_Knot_5
+[2016.06.23-21.19.06:412][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_5.EdGraphPin_500''
+[2016.06.23-21.19.06:412][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_110.EdGraphPin_937''
+[2016.06.23-21.19.06:412][191]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_5 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.SpawnTrack.K2Node_Knot_5
+[2016.06.23-21.19.06:412][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_5.EdGraphPin_499''
+[2016.06.23-21.19.06:413][191]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_6 or K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_6
+[2016.06.23-21.19.06:413][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_6.EdGraphPin_508''
+[2016.06.23-21.19.06:413][191]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_6 or K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_6
+[2016.06.23-21.19.06:413][191]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_6.EdGraphPin_509''
+[2016.06.23-21.19.06:455][191]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  TurnFailPunish  and was replaced as a Custom Event!
+[2016.06.23-21.19.41:910][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_VariableSet_84 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:ExecuteUbergraph_CarPlayerCharacter.K2Node_VariableSet_84
+[2016.06.23-21.19.41:910][997]LogBlueprint:Warning: Compiler Warning Pasted node  CustomEvent   conflicted with  TurnFailPunish  and was replaced as a Custom Event!
+[2016.06.23-21.19.41:910][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_VariableSet_84 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:ExecuteUbergraph_CarPlayerCharacter.K2Node_VariableSet_84
+[2016.06.23-21.19.41:910][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_4 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.SpawnTrack.K2Node_Knot_4
+[2016.06.23-21.19.41:912][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_4 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.CreateTrack.K2Node_Knot_4
+[2016.06.23-21.19.41:912][997]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_4.EdGraphPin_497''
+[2016.06.23-21.19.41:912][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_VariableSet_110 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:ExecuteUbergraph_CarPlayerCharacter.K2Node_VariableSet_110
+[2016.06.23-21.19.41:912][997]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_110.EdGraphPin_933''
+[2016.06.23-21.19.41:912][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_VariableSet_110 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:ExecuteUbergraph_CarPlayerCharacter.K2Node_VariableSet_110
+[2016.06.23-21.19.41:912][997]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_110.EdGraphPin_934''
+[2016.06.23-21.19.41:912][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_VariableSet_83 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:ExecuteUbergraph_CarPlayerCharacter.K2Node_VariableSet_83
+[2016.06.23-21.19.41:913][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_VariableSet_111 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:ExecuteUbergraph_CarPlayerCharacter.K2Node_VariableSet_111
+[2016.06.23-21.19.41:913][997]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_111.EdGraphPin_938''
+[2016.06.23-21.19.41:913][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_5 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.SpawnTrack.K2Node_Knot_5
+[2016.06.23-21.19.41:913][997]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_5.EdGraphPin_500''
+[2016.06.23-21.19.41:913][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_VariableSet_110 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:ExecuteUbergraph_CarPlayerCharacter.K2Node_VariableSet_110
+[2016.06.23-21.19.41:913][997]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_110.EdGraphPin_937''
+[2016.06.23-21.19.41:913][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_5 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.SpawnTrack.K2Node_Knot_5
+[2016.06.23-21.19.41:913][997]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_5.EdGraphPin_499''
+[2016.06.23-21.19.41:914][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_6 or K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_6
+[2016.06.23-21.19.41:914][997]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_6.EdGraphPin_508''
+[2016.06.23-21.19.41:914][997]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_6 or K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_6
+[2016.06.23-21.19.41:914][997]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_6.EdGraphPin_509''
+[2016.06.23-21.19.41:954][997]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  TurnFailPunish  and was replaced as a Custom Event!
+[2016.06.23-21.19.41:954][997]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  TurnFailPunish  and was replaced as a Custom Event!
+[2016.06.23-21.21.21:811][143]BlueprintLog: New page: Compile CarPlayerCharacter
+[2016.06.23-21.21.22:049][143]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.06.23-21.21.22:049][143]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.23-21.21.22:049][143]BlueprintEditorCompileResults: Info [0694.40] Compile of CarPlayerCharacter successful! [in 237 ms] (/Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter)
+[2016.06.23-21.21.40:450][202]BlueprintLog: New page: Compile ArrowUp
+[2016.06.23-21.21.40:550][202]BlueprintEditorCompileResults: Info [0712.90] Compile of ArrowUp successful! [in 99 ms] (/Game/Assets/BluePrint/ArrowUp.ArrowUp)
+[2016.06.23-21.21.44:272][359]LogSavePackage: Save=166.40ms
+[2016.06.23-21.21.44:272][359]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/CarPlayerCharacter567D750A447D53F915D04F87262B3CE5.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/ThirdPersonBP/Blueprints/CarPlayerCharacter.uasset'
+[2016.06.23-21.21.44:276][359]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/ThirdPersonBP/Blueprints/CarPlayerCharacter.uasset
+[2016.06.23-21.21.44:315][359]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BluePrint/ArrowUp" FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/BluePrint/ArrowUp.uasset" SILENT=true
+[2016.06.23-21.21.44:348][359]LogSavePackage: Save=31.66ms
+[2016.06.23-21.21.44:348][359]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/ArrowUp2D7BF69C4D1C8AD53DE964A5452B7F92.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/BluePrint/ArrowUp.uasset'
+[2016.06.23-21.21.44:352][359]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/BluePrint/ArrowUp.uasset
+[2016.06.23-21.21.44:404][359]LogSavePackage: Save=11.80ms
+[2016.06.23-21.21.44:404][359]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/M_HologramGreen_Inst4006063D4C401522DC540894D80594AD.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/Legacy/Materials/M_HologramGreen_Inst.uasset'
+[2016.06.23-21.21.44:408][359]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/Legacy/Materials/M_HologramGreen_Inst.uasset
+[2016.06.23-21.22.11:269][746]LogMetaData: Removing '/Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Assets/BluePrint/ArrowUp.PackageMetaData'
+[2016.06.23-21.22.11:270][746]LogMetaData: Removing '/Game/Assets/BluePrint/ArrowUp_BP.SKEL_ArrowUp_BP_C' ref from Metadata '/Game/Assets/BluePrint/ArrowUp.PackageMetaData'
+[2016.06.23-21.22.11:270][746]LogMetaData: Removing '/Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP_C' ref from Metadata '/Game/Assets/BluePrint/ArrowUp.PackageMetaData'
+[2016.06.23-21.22.11:270][746]LogMetaData: Removing '/Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Assets/BluePrint/ArrowUp.PackageMetaData'
+[2016.06.23-21.22.11:270][746]LogMetaData: Removing '/Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Assets/BluePrint/ArrowUp.PackageMetaData'
+[2016.06.23-21.22.11:270][746]LogMetaData: Removing '/Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Assets/BluePrint/ArrowUp.PackageMetaData'
+[2016.06.23-21.22.11:353][746]LogSavePackage: Save=23.85ms
+[2016.06.23-21.22.11:353][746]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/ArrowUp_BPF074A875408FD5CD7B42538AB5EAC90C.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/BluePrint/ArrowUp_BP.uasset'
+[2016.06.23-21.22.11:356][746]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/BluePrint/ArrowUp_BP.uasset
+[2016.06.23-21.22.51:798][347]BlueprintLog: New page: Compile ArrowDown_BP
+[2016.06.23-21.22.51:898][347]BlueprintEditorCompileResults: Info [0784.25] Compile of ArrowDown_BP successful! [in 100 ms] (/Game/Assets/BluePrint/ArrowDown_BP.ArrowDown_BP)
+[2016.06.23-21.22.53:380][508]BlueprintLog: New page: Compile ArrowUp_BP
+[2016.06.23-21.22.53:472][508]BlueprintEditorCompileResults: Info [0785.82] Compile of ArrowUp_BP successful! [in 91 ms] (/Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP)
+[2016.06.23-21.23.13:681][604]BlueprintLog: New page: Compile ArrowDown_BP
+[2016.06.23-21.23.13:774][604]BlueprintEditorCompileResults: Info [0806.12] Compile of ArrowDown_BP successful! [in 93 ms] (/Game/Assets/BluePrint/ArrowDown_BP.ArrowDown_BP)
+[2016.06.23-21.23.19:279][970]LogSavePackage: Save=32.64ms
+[2016.06.23-21.23.19:279][970]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/ArrowDown_BP7A32BE214CF03BB1AB38309E5D7C365B.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/BluePrint/ArrowDown_BP.uasset'
+[2016.06.23-21.23.19:283][970]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/BluePrint/ArrowDown_BP.uasset
+[2016.06.23-21.32.04:972][416]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.06.23-21.32.04:972][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.23-21.32.04:972][416]PIE: New page: PIE session: MultiplayerLevel (Jun 23, 2016, 3:32:04 PM)
+[2016.06.23-21.32.04:972][416]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MultiplayerLevel
+[2016.06.23-21.32.04:981][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008829s)
+[2016.06.23-21.32.04:982][416]LogAIModule: Creating AISystem for world MultiplayerLevel
+[2016.06.23-21.32.04:982][416]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2016.06.23-21.32.04:982][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MultiplayerLevel.MultiplayerLevel to /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel (0.009982s)
+[2016.06.23-21.32.05:042][416]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.23-21.32.05:063][416]LogInit: FAudioDevice initialized.
+[2016.06.23-21.32.05:107][416]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.23-21.32.05:111][416]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel up for play (max tick rate 0) at 2016.06.23-18.32.05
+[2016.06.23-21.32.05:112][416]LogWorld: Bringing up level for play took: 0.003068
+[2016.06.23-21.32.05:288][416]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MultiplayerLevel 1.248
+[2016.06.23-21.32.05:289][416]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.06.23-21.32.51:084][250]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.06.23-21.32.51:173][250]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.06.23-21.33.02:806][512]LogRenderer: Reallocating scene render targets to support 1432x924 (Frame:21461).
+[2016.06.23-21.33.25:598][433]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.06.23-21.34.13:269][999]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.23-21.34.21:183][371]Cmd: ACTOR HIDE SELECTED
+[2016.06.23-21.34.21:749][399]Cmd: ACTOR HIDE SELECTED
+[2016.06.23-21.34.25:439][577]Cmd: ACTOR HIDE SELECTED
+[2016.06.23-21.35.16:500][944]LogRenderer: Reallocating scene render targets to support 1864x1008 (Frame:27813).
+[2016.06.23-21.35.16:537][945]LogRenderer: Reallocating scene render targets to support 1916x1040 (Frame:27815).
+[2016.06.23-21.35.16:600][946]LogRenderer: Reallocating scene render targets to support 1920x1040 (Frame:27817).
+[2016.06.23-21.56.09:593][765]BlueprintLog: New page: Compile CarPlayerCharacter
+[2016.06.23-21.56.09:695][765]LogBlueprint:Error: Compiler Error Could not find a function named "ArrowDownCall" in 'CarPlayerCharacter_C'.
+Make sure 'CarPlayerCharacter_C' has been compiled for  Arrow Down Call 
+[2016.06.23-21.56.12:270][765]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.06.23-21.56.12:270][765]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.23-21.56.12:270][765]BlueprintEditorCompileResults: Info [2784.62] Compile of CarPlayerCharacter successful! [in 2,676 ms] (/Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter)
+[2016.06.23-22.02.26:933][888]LogEditorTransaction: Undo Break Pin Links
+[2016.06.23-22.03.51:227][358]BlueprintLog: New page: Compile CarPlayerCharacter
+[2016.06.23-22.03.51:306][358]LogBlueprint:Error: Compiler Error Could not find a function named "ArrowDownCall" in 'CarPlayerCharacter_C'.
+Make sure 'CarPlayerCharacter_C' has been compiled for  Arrow Down Call 
+[2016.06.23-22.03.51:490][358]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.06.23-22.03.51:490][358]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.23-22.03.51:490][358]BlueprintEditorCompileResults: Info [3243.84] Compile of CarPlayerCharacter successful! [in 262 ms] (/Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter)
+[2016.06.23-22.03.53:175][516]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
+[2016.06.23-22.04.34:755][244]BlueprintLog: New page: Compile ArrowUp_BP
+[2016.06.23-22.04.34:935][244]BlueprintEditorCompileResults: Info [3287.28] Compile of ArrowUp_BP successful! [in 180 ms] (/Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP)
+[2016.06.23-22.05.05:825][828]BlueprintLog: New page: Compile ArrowUp_BP
+[2016.06.23-22.05.05:935][828]BlueprintEditorCompileResults: Info [3318.28] Compile of ArrowUp_BP successful! [in 109 ms] (/Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP)
+[2016.06.23-22.05.47:031][707]BlueprintLog: New page: Compile ArrowUp_BP
+[2016.06.23-22.05.47:171][707]BlueprintEditorCompileResults: Info [3359.52] Compile of ArrowUp_BP successful! [in 139 ms] (/Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP)
+[2016.06.23-22.06.28:260][522]BlueprintLog: New page: Compile ArrowUp_BP
+[2016.06.23-22.06.28:376][522]BlueprintEditorCompileResults: Info [3400.72] Compile of ArrowUp_BP successful! [in 115 ms] (/Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP)
+[2016.06.23-22.06.48:147][514]BlueprintLog: New page: Compile ArrowDown_BP
+[2016.06.23-22.06.48:250][514]BlueprintEditorCompileResults: Info [3420.60] Compile of ArrowDown_BP successful! [in 102 ms] (/Game/Assets/BluePrint/ArrowDown_BP.ArrowDown_BP)
+[2016.06.23-22.07.02:333][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_79.EdGraphPin_3842''
+[2016.06.23-22.07.02:333][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.CreateTrack.K2Node_VariableSet_126 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_126
+[2016.06.23-22.07.02:334][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.CreateTrack.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_VariableSet_126
+[2016.06.23-22.07.02:334][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_126.EdGraphPin_1932''
+[2016.06.23-22.07.02:334][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CustomEvent_48.EdGraphPin_3413''
+[2016.06.23-22.07.02:334][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_1
+[2016.06.23-22.07.02:334][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_3822''
+[2016.06.23-22.07.02:334][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_125 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_VariableSet_125
+[2016.06.23-22.07.02:334][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_125.EdGraphPin_1925''
+[2016.06.23-22.07.02:334][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.CreateTrack.K2Node_VariableSet_126 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_126
+[2016.06.23-22.07.02:334][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.CreateTrack.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_VariableSet_126
+[2016.06.23-22.07.02:334][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_126.EdGraphPin_1933''
+[2016.06.23-22.07.02:335][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1267 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_CallFunction_1267
+[2016.06.23-22.07.02:335][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_1267.EdGraphPin_3860''
+[2016.06.23-22.07.02:335][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.CreateTrack.K2Node_VariableSet_127 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_VariableSet_127
+[2016.06.23-22.07.02:335][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.CreateTrack.K2Node_VariableSet_127 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_127
+[2016.06.23-22.07.02:335][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_127.EdGraphPin_1939''
+[2016.06.23-22.07.02:335][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CommutativeAssociativeBinaryOperator_80 or K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Int Array.K2Node_CommutativeAssociativeBinaryOperator_80
+[2016.06.23-22.07.02:335][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CommutativeAssociativeBinaryOperator_80 or K2Node_CommutativeAssociativeBinaryOperator /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_80
+[2016.06.23-22.07.02:335][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_80.EdGraphPin_3832''
+[2016.06.23-22.07.02:336][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1266 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_CallFunction_1266
+[2016.06.23-22.07.02:336][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_1266.EdGraphPin_3864''
+[2016.06.23-22.07.02:336][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.SpawnTrack.K2Node_Knot_3
+[2016.06.23-22.07.02:336][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.CreateTrack.K2Node_Knot_3
+[2016.06.23-22.07.02:336][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_3
+[2016.06.23-22.07.02:336][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_3.EdGraphPin_3837''
+[2016.06.23-22.07.02:336][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_2 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.SpawnTrack.K2Node_Knot_2
+[2016.06.23-22.07.02:336][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_2 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_2
+[2016.06.23-22.07.02:336][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_2.EdGraphPin_3823''
+[2016.06.23-22.07.02:337][685]LogBlueprint:Warning: Compiler Warning Pasted node  CustomEvent   conflicted with  ArrowUpCall  and was replaced as a Custom Event!
+[2016.06.23-22.07.02:337][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_2 or K2Node_Knot /Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel.SpawnTrack.K2Node_Knot_2
+[2016.06.23-22.07.02:337][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_2 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_2
+[2016.06.23-22.07.02:337][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_2.EdGraphPin_3824''
+[2016.06.23-22.07.02:337][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_285.EdGraphPin_3835''
+[2016.06.23-22.07.02:337][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/Tracks/BP/TrackMasterCurveBP.TrackMasterCurveBP:EventGraph.K2Node_Knot_7 or K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_7
+[2016.06.23-22.07.02:337][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/Tracks/BP/TrackMasterCurveBP.TrackMasterCurveBP:EventGraph.K2Node_Knot_7 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_7
+[2016.06.23-22.07.02:337][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_7.EdGraphPin_3850''
+[2016.06.23-22.07.02:338][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_79.EdGraphPin_3841''
+[2016.06.23-22.07.02:338][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_245.EdGraphPin_3847''
+[2016.06.23-22.07.02:338][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_245.EdGraphPin_3848''
+[2016.06.23-22.07.02:338][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/Tracks/BP/TrackMasterCurveBP.TrackMasterCurveBP:EventGraph.K2Node_Knot_7 or K2Node_Knot /Game/Assets/BluePrint/FloatingBarrier_BP.FloatingBarrier_BP:EventGraph.K2Node_Knot_7
+[2016.06.23-22.07.02:338][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Assets/Tracks/BP/TrackMasterCurveBP.TrackMasterCurveBP:EventGraph.K2Node_Knot_7 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_7
+[2016.06.23-22.07.02:338][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_7.EdGraphPin_3849''
+[2016.06.23-22.07.02:339][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_246.EdGraphPin_3867''
+[2016.06.23-22.07.02:339][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1267 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_CallFunction_1267
+[2016.06.23-22.07.02:339][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_1267.EdGraphPin_3859''
+[2016.06.23-22.07.02:339][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1266 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_CallFunction_1266
+[2016.06.23-22.07.02:339][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_1266.EdGraphPin_3863''
+[2016.06.23-22.07.02:339][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_246.EdGraphPin_3868''
+[2016.06.23-22.07.02:340][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:CreateCurveWidget.K2Node_Knot_9 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EdGraph_136.K2Node_Knot_9
+[2016.06.23-22.07.02:340][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:CreateCurveWidget.K2Node_Knot_9 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EdGraph_142.K2Node_Knot_9
+[2016.06.23-22.07.02:340][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:CreateCurveWidget.K2Node_Knot_9 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EdGraph_148.K2Node_Knot_9
+[2016.06.23-22.07.02:340][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:CreateCurveWidget.K2Node_Knot_9 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EventGraph.K2Node_Knot_9
+[2016.06.23-22.07.02:340][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:CreateCurveWidget.K2Node_Knot_9 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EdGraph_130.K2Node_Knot_9
+[2016.06.23-22.07.02:340][685]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:CreateCurveWidget.K2Node_Knot_9 or K2Node_Knot /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter:EdGraph_124.K2Node_Knot_9
+[2016.06.23-22.07.02:340][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_9.EdGraphPin_3866''
+[2016.06.23-22.07.02:340][685]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_246.EdGraphPin_3868''
+[2016.06.23-22.07.02:389][685]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  ArrowUpCall  and was replaced as a Custom Event!
+[2016.06.23-22.08.25:387][649]LogEditorTransaction: Undo Move Nodes
+[2016.06.23-22.08.25:920][663]LogEditorTransaction: Undo Move Node
+[2016.06.23-22.08.26:797][729]LogEditorTransaction: Undo Move Nodes
+[2016.06.23-22.08.30:792][ 87]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  ArrowUpCall  and was replaced as a Custom Event!
+[2016.06.23-22.09.36:750][539]LogEditorTransaction: Undo Delete current selection
+[2016.06.23-22.09.37:287][551]LogEditorTransaction: Undo Delete current selection
+[2016.06.23-22.10.10:510][798]BlueprintLog: New page: Compile CarPlayerCharacter
+[2016.06.23-22.10.10:777][798]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.06.23-22.10.10:777][798]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.23-22.10.10:777][798]BlueprintEditorCompileResults: Info [3623.12] Compile of CarPlayerCharacter successful! [in 265 ms] (/Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter)
+[2016.06.23-22.10.41:125][123]BlueprintLog: New page: Compile ArrowDown_BP
+[2016.06.23-22.10.41:340][123]BlueprintEditorCompileResults: Info [3653.69] Compile of ArrowDown_BP successful! [in 215 ms] (/Game/Assets/BluePrint/ArrowDown_BP.ArrowDown_BP)
+[2016.06.23-22.11.02:306][530]BlueprintLog: New page: Compile ArrowDown_BP
+[2016.06.23-22.11.02:462][530]BlueprintEditorCompileResults: Info [3674.81] Compile of ArrowDown_BP successful! [in 156 ms] (/Game/Assets/BluePrint/ArrowDown_BP.ArrowDown_BP)
+[2016.06.23-22.11.18:456][395]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP:EventGraph.K2Node_VariableSet_193.EdGraphPin_471) from referencer (EdGraphPin /Game/Assets/BluePrint/ArrowDown_BP.ArrowDown_BP:EventGraph.K2Node_CallFunction_61.EdGraphPin_464).  Import failed...
+[2016.06.23-22.11.18:456][395]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_193.EdGraphPin_471''
+[2016.06.23-22.11.20:227][598]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/BluePrint/ArrowUp_BP.ArrowUp_BP:EventGraph.K2Node_VariableSet_193.EdGraphPin_471) from referencer (EdGraphPin /Game/Assets/BluePrint/ArrowDown_BP.ArrowDown_BP:EventGraph.K2Node_CallFunction_61.EdGraphPin_464).  Import failed...
+[2016.06.23-22.11.20:227][598]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_193.EdGraphPin_471''
+[2016.06.23-22.11.56:753][926]BlueprintLog: New page: Compile ArrowDown_BP
+[2016.06.23-22.11.56:875][926]BlueprintEditorCompileResults: Info [3729.22] Compile of ArrowDown_BP successful! [in 121 ms] (/Game/Assets/BluePrint/ArrowDown_BP.ArrowDown_BP)
+[2016.06.23-22.12.19:314][575]BlueprintLog: New page: Compile ArrowDown_BP
+[2016.06.23-22.12.19:471][575]BlueprintEditorCompileResults: Info [3751.82] Compile of ArrowDown_BP successful! [in 157 ms] (/Game/Assets/BluePrint/ArrowDown_BP.ArrowDown_BP)
+[2016.06.23-22.12.34:787][371]BlueprintLog: New page: Compile ArrowDown_BP
+[2016.06.23-22.12.34:916][371]BlueprintEditorCompileResults: Info [3767.26] Compile of ArrowDown_BP successful! [in 128 ms] (/Game/Assets/BluePrint/ArrowDown_BP.ArrowDown_BP)
+[2016.06.23-22.12.39:877][892]LogSavePackage: Save=140.66ms
+[2016.06.23-22.12.39:877][892]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/CarPlayerCharacterB9489C2E4C31BF87E87E4BBE0CACF9C9.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/ThirdPersonBP/Blueprints/CarPlayerCharacter.uasset'
+[2016.06.23-22.12.39:880][892]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/ThirdPersonBP/Blueprints/CarPlayerCharacter.uasset
+[2016.06.23-22.12.39:959][892]LogSavePackage: Save=25.76ms
+[2016.06.23-22.12.39:959][892]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/ArrowDown_BP23698B0E47A0A2CDBA3CBC83BF499146.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/BluePrint/ArrowDown_BP.uasset'
+[2016.06.23-22.12.39:961][892]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/BluePrint/ArrowDown_BP.uasset
+[2016.06.23-22.12.40:038][892]LogSavePackage: Save=25.51ms
+[2016.06.23-22.12.40:038][892]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/ArrowUp_BP880BA8EE4E6B9ED65ABD38AE78A90635.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/BluePrint/ArrowUp_BP.uasset'
+[2016.06.23-22.12.40:041][892]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/BluePrint/ArrowUp_BP.uasset
+[2016.06.23-22.12.58:483][583]BlueprintLog: New page: Compile CarPlayerCharacter
+[2016.06.23-22.12.58:720][583]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.06.23-22.12.58:720][583]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.06.23-22.12.58:720][583]BlueprintEditorCompileResults: Info [3791.07] Compile of CarPlayerCharacter successful! [in 236 ms] (/Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter)
+[2016.06.23-22.14.04:144][121]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MultiplayerLevel' took 0.029
+[2016.06.23-22.14.04:210][121]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/CarPlayerCharacter] ([1] browsable assets)...
+[2016.06.23-22.14.04:238][121]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/CarPlayerCharacter.CarPlayerCharacter]
+[2016.06.23-22.14.04:238][121]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/CarPlayerCharacter]
+[2016.06.23-22.14.04:399][121]LogSavePackage: Save=133.06ms
+[2016.06.23-22.14.04:399][121]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/CarPlayerCharacter_Auto1FE31D13D4EDE52F0B42AC8B6969D73C9.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/CarPlayerCharacter_Auto1.uasset'
+[2016.06.23-22.14.04:422][121]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/CarPlayerCharacter_Auto1.uasset
+[2016.06.23-22.14.04:422][121]LogFileHelpers: Auto-saving content packages took 0.277
+[2016.06.23-22.14.30:787][956]LogSavePackage: Save=127.39ms
+[2016.06.23-22.14.30:787][956]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/CarPlayerCharacter782C7C1C4EBBED2F398E18B4544660C0.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/ThirdPersonBP/Blueprints/CarPlayerCharacter.uasset'
+[2016.06.23-22.14.30:791][956]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/ThirdPersonBP/Blueprints/CarPlayerCharacter.uasset
+[2016.06.23-22.15.05:170][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.06.23-22.15.05:220][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.06.23-22.15.05:273][257]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.23-22.15.05:275][257]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.23-22.15.05:470][258]Cmd: QUIT_EDITOR
+[2016.06.23-22.15.05:853][258]LogExit: Preparing to exit.
+[2016.06.23-22.15.06:954][258]LogExit: Editor shut down
+[2016.06.23-22.15.06:954][258]LogExit: Transaction tracking system shut down
+[2016.06.23-22.15.07:123][258]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.23-22.15.07:125][258]LogExit: Object subsystem successfully closed.
+[2016.06.23-22.15.07:146][258]LogD3D11RHI: Shutdown
+[2016.06.23-22.15.07:146][258]LogD3D11RHI: CleanupD3DDevice
+[2016.06.23-22.15.07:217][258]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.23-22.15.07:240][258]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (221)
+[2016.06.23-22.15.07:240][258]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (220)
+[2016.06.23-22.15.07:240][258]LogModuleManager: Shutting down and abandoning module MaterialEditor (219)
+[2016.06.23-22.15.07:240][258]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (218)
+[2016.06.23-22.15.07:240][258]LogModuleManager: Shutting down and abandoning module BlueprintGraph (217)
+[2016.06.23-22.15.07:240][258]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2016.06.23-22.15.07:240][258]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2016.06.23-22.15.07:240][258]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
+[2016.06.23-22.15.07:240][258]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
+[2016.06.23-22.15.07:240][258]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
+[2016.06.23-22.15.07:240][258]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2016.06.23-22.15.07:241][258]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2016.06.23-22.15.07:242][258]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2016.06.23-22.15.07:242][258]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2016.06.23-22.15.07:242][258]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2016.06.23-22.15.07:242][258]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2016.06.23-22.15.07:242][258]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2016.06.23-22.15.07:242][258]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2016.06.23-22.15.07:242][258]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2016.06.23-22.15.07:242][258]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2016.06.23-22.15.07:242][258]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2016.06.23-22.15.07:242][258]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2016.06.23-22.15.07:242][258]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2016.06.23-22.15.07:407][258]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2016.06.23-22.15.07:408][258]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2016.06.23-22.15.07:408][258]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2016.06.23-22.15.07:408][258]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2016.06.23-22.15.07:408][258]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2016.06.23-22.15.07:408][258]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2016.06.23-22.15.07:408][258]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2016.06.23-22.15.07:408][258]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2016.06.23-22.15.07:409][258]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2016.06.23-22.15.07:409][258]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2016.06.23-22.15.07:450][258]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2016.06.23-22.15.07:450][258]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2016.06.23-22.15.07:450][258]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2016.06.23-22.15.07:451][258]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2016.06.23-22.15.07:451][258]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2016.06.23-22.15.07:451][258]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2016.06.23-22.15.07:451][258]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2016.06.23-22.15.07:451][258]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2016.06.23-22.15.07:451][258]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2016.06.23-22.15.07:451][258]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2016.06.23-22.15.07:454][258]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2016.06.23-22.15.07:454][258]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2016.06.23-22.15.07:454][258]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2016.06.23-22.15.07:454][258]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2016.06.23-22.15.07:454][258]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2016.06.23-22.15.07:454][258]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2016.06.23-22.15.07:455][258]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2016.06.23-22.15.07:455][258]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2016.06.23-22.15.07:455][258]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2016.06.23-22.15.07:455][258]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2016.06.23-22.15.07:455][258]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2016.06.23-22.15.07:455][258]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2016.06.23-22.15.07:455][258]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2016.06.23-22.15.07:455][258]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2016.06.23-22.15.07:455][258]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2016.06.23-22.15.07:455][258]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2016.06.23-22.15.07:520][258]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2016.06.23-22.15.07:520][258]LogModuleManager: Shutting down and abandoning module SlateRemote (129)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module SteamVRController (128)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module SteamVR (127)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (126)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module OculusLibrary (125)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module OculusInput (124)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (123)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module CableComponent (122)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (121)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (120)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module LowEntryExtendedStandardLibraryEditor (119)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module LowEntryExtendedStandardLibrary (118)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.06.23-22.15.07:522][258]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.06.23-22.15.07:523][258]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.06.23-22.15.07:523][258]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.06.23-22.15.07:523][258]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.06.23-22.15.07:523][258]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.06.23-22.15.07:523][258]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.06.23-22.15.07:523][258]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.06.23-22.15.07:523][258]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.06.23-22.15.07:523][258]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.06.23-22.15.07:523][258]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.06.23-22.15.07:523][258]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.06.23-22.15.07:524][258]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.06.23-22.15.07:524][258]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.06.23-22.15.07:526][258]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.06.23-22.15.07:528][258]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.06.23-22.15.07:528][258]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.06.23-22.15.07:628][258]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.06.23-22.15.07:628][258]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.06.23-22.15.07:628][258]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.06.23-22.15.07:628][258]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.06.23-22.15.07:628][258]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.06.23-22.15.07:629][258]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.06.23-22.15.07:629][258]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.06.23-22.15.07:629][258]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.06.23-22.15.07:629][258]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.06.23-22.15.07:629][258]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.06.23-22.15.07:629][258]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.06.23-22.15.07:629][258]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.06.23-22.15.07:629][258]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.06.23-22.15.07:629][258]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.06.23-22.15.07:629][258]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.06.23-22.15.07:630][258]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.06.23-22.15.07:630][258]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.23-22.15.07:630][258]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.23-22.15.07:630][258]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.06.23-22.15.07:630][258]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.06.23-22.15.07:630][258]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.06.23-22.15.07:630][258]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.06.23-22.15.07:631][258]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.06.23-22.15.07:631][258]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.06.23-22.15.07:640][258]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.06.23-22.15.07:641][258]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.06.23-22.15.07:641][258]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.06.23-22.15.07:641][258]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.06.23-22.15.07:641][258]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.06.23-22.15.07:641][258]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.06.23-22.15.07:642][258]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.06.23-22.15.07:835][258]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.23-22.15.07:836][258]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.23-22.15.07:836][258]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.23-22.15.07:836][258]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.06.23-22.15.07:898][258]LogDerivedDataCache: Shutdown
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.23-22.15.07:899][258]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.23-22.15.07:900][258]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.23-22.15.11:407][258]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.23-22.15.11:407][258]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.23-22.15.11:407][258]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.23-22.15.11:407][258]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.23-22.15.11:407][258]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.23-22.15.11:407][258]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.23-22.15.11:407][258]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.23-22.15.11:410][258]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.23-22.15.11:410][258]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.23-22.15.11:410][258]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.23-22.15.11:410][258]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.23-22.15.11:410][258]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.23-22.15.11:410][258]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.23-22.15.11:410][258]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.23-22.15.11:410][258]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.23-22.15.11:410][258]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.23-22.15.11:410][258]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.23-22.15.11:412][258]LogExit: Exiting.
+[2016.06.23-22.15.11:413][258]Log file closed, 06/23/16 19:15:11
