@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-C6C1D4DA4E77FFE1030215A816F3A030_0000</CrashGUID>
+<ProcessId>6916</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<IsEnsure>1</IsEnsure>
+<SecondsSinceStart>69</SecondsSinceStart>
+<GameName>UE4-LoseOrDie_Multi</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.12.4-3028348+++UE4+Release-4.12</EngineVersion>
+<CommandLine>-EpicPortal </CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<AppDefaultLocale>pt_BR</AppDefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files/Epic Games/4.12/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files/Epic Games/4.12/</RootDir>
+<MachineId>CA1DEB15400509DDC561BB9D1B5BE1B1</MachineId>
+<EpicAccountId>6114d1f106a54a3d811d8c702af87130</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Ensure condition failed: TabBeingDraggedPtr.IsValid() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Slate\Private\Framework\Docking\SDockingTabWell.cpp] [Line: 374] &nl;&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>2</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) HD Graphics Family</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 7</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>Service Pack 1</Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>8489680896</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>8796092891136</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>2746425344</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>8794013356032</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>991342592</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>991342592</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>1388265472</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>1388265472</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<BuildIntegrityStatus>0</BuildIntegrityStatus>
+</PlatformProperties>
+</FGenericCrashContext>
