@@ -1881,4 +1881,94 @@ ntdll.dll
 [2016.07.03-00.10.52:984][188]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/TrackMasterCurveBP317B23554785DCFCD0B600A00794C829.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/Tracks/BP/TrackMasterCurveBP.uasset'
 [2016.07.03-00.10.52:987][188]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/Tracks/BP/TrackMasterCurveBP.uasset
 [2016.07.03-00.10.53:193][188]LogSavePackage: Save=152.07ms
-[2016.07.03-00.10.53:193][188]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/CarPlayerCharacterF8F07FC7400D8F75B7E500A5B891369D.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Pro
+[2016.07.03-00.10.53:193][188]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/CarPlayerCharacterF8F07FC7400D8F75B7E500A5B891369D.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/ThirdPersonBP/Blueprints/CarPlayerCharacter.uasset'
+[2016.07.03-00.10.53:196][188]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/ThirdPersonBP/Blueprints/CarPlayerCharacter.uasset
+[2016.07.03-00.10.53:261][188]LogSavePackage: Save=8.95ms
+[2016.07.03-00.10.53:261][188]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/Track30LeftBP26A135194D7A97A23F9CDE90E79EBB31.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/Tracks/BP/Track30LeftBP.uasset'
+[2016.07.03-00.10.53:264][188]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/Tracks/BP/Track30LeftBP.uasset
+[2016.07.03-00.10.53:349][188]LogSavePackage: Save=29.66ms
+[2016.07.03-00.10.53:349][188]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/Track45RightBP3823348B4193ABEC6541388624438350.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/Tracks/BP/Track45RightBP.uasset'
+[2016.07.03-00.10.53:352][188]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/Tracks/BP/Track45RightBP.uasset
+[2016.07.03-00.12.32:463][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.12.32:464][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.03-00.12.32:464][555]PIE: New page: PIE session: MultiplayerLevel (Jul 2, 2016, 6:12:32 PM)
+[2016.07.03-00.12.32:464][555]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MultiplayerLevel
+[2016.07.03-00.12.32:471][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006992s)
+[2016.07.03-00.12.32:471][555]LogAIModule: Creating AISystem for world MultiplayerLevel
+[2016.07.03-00.12.32:471][555]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2016.07.03-00.12.32:472][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MultiplayerLevel.MultiplayerLevel to /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel (0.007897s)
+[2016.07.03-00.12.32:506][555]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.03-00.12.32:520][555]LogInit: FAudioDevice initialized.
+[2016.07.03-00.12.32:560][555]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.03-00.12.32:563][555]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel up for play (max tick rate 0) at 2016.07.02-21.12.32
+[2016.07.03-00.12.32:564][555]LogWorld: Bringing up level for play took: 0.002708
+[2016.07.03-00.12.32:808][555]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MultiplayerLevel -0.241
+[2016.07.03-00.12.32:809][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.12.44:360][ 41]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.12.44:507][ 41]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.13.28:423][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.13.28:423][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.03-00.13.28:423][ 68]PIE: New page: PIE session: MultiplayerLevel (Jul 2, 2016, 6:13:28 PM)
+[2016.07.03-00.13.28:423][ 68]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MultiplayerLevel
+[2016.07.03-00.13.28:430][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006370s)
+[2016.07.03-00.13.28:430][ 68]LogAIModule: Creating AISystem for world MultiplayerLevel
+[2016.07.03-00.13.28:430][ 68]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2016.07.03-00.13.28:430][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MultiplayerLevel.MultiplayerLevel to /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel (0.007155s)
+[2016.07.03-00.13.28:462][ 68]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.03-00.13.28:477][ 68]LogInit: FAudioDevice initialized.
+[2016.07.03-00.13.28:517][ 68]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.03-00.13.28:521][ 68]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel up for play (max tick rate 0) at 2016.07.02-21.13.28
+[2016.07.03-00.13.28:522][ 68]LogWorld: Bringing up level for play took: 0.004073
+[2016.07.03-00.13.28:744][ 68]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MultiplayerLevel -0.305
+[2016.07.03-00.13.28:745][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.13.46:295][819]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.13.46:429][819]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.14.08:522][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.14.08:522][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.03-00.14.08:522][ 85]PIE: New page: PIE session: MultiplayerLevel (Jul 2, 2016, 6:14:08 PM)
+[2016.07.03-00.14.08:522][ 85]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MultiplayerLevel
+[2016.07.03-00.14.08:529][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006328s)
+[2016.07.03-00.14.08:529][ 85]LogAIModule: Creating AISystem for world MultiplayerLevel
+[2016.07.03-00.14.08:529][ 85]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2016.07.03-00.14.08:529][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MultiplayerLevel.MultiplayerLevel to /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel (0.007199s)
+[2016.07.03-00.14.08:566][ 85]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.03-00.14.08:582][ 85]LogInit: FAudioDevice initialized.
+[2016.07.03-00.14.08:623][ 85]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.03-00.14.08:626][ 85]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel up for play (max tick rate 0) at 2016.07.02-21.14.08
+[2016.07.03-00.14.08:626][ 85]LogWorld: Bringing up level for play took: 0.002396
+[2016.07.03-00.14.08:882][ 85]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MultiplayerLevel -0.168
+[2016.07.03-00.14.08:882][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.14.12:953][249]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.14.13:122][249]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.14.27:533][449]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.14.27:533][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.03-00.14.27:533][449]PIE: New page: PIE session: MultiplayerLevel (Jul 2, 2016, 6:14:27 PM)
+[2016.07.03-00.14.27:533][449]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MultiplayerLevel
+[2016.07.03-00.14.27:539][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006275s)
+[2016.07.03-00.14.27:540][449]LogAIModule: Creating AISystem for world MultiplayerLevel
+[2016.07.03-00.14.27:540][449]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2016.07.03-00.14.27:540][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MultiplayerLevel.MultiplayerLevel to /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel (0.007114s)
+[2016.07.03-00.14.27:575][449]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.03-00.14.27:591][449]LogInit: FAudioDevice initialized.
+[2016.07.03-00.14.27:628][449]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.03-00.14.27:631][449]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MultiplayerLevel.MultiplayerLevel up for play (max tick rate 0) at 2016.07.02-21.14.27
+[2016.07.03-00.14.27:631][449]LogWorld: Bringing up level for play took: 0.002477
+[2016.07.03-00.14.27:864][449]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MultiplayerLevel 0.814
+[2016.07.03-00.14.27:865][449]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.15.14:870][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.15.15:012][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel' with GeneratedClass '/Game/Maps/MultiplayerLevel.MultiplayerLevel_C' with ClassGeneratedBy '/Game/Maps/MultiplayerLevel.MultiplayerLevel:PersistentLevel.MultiplayerLevel'
+[2016.07.03-00.16.19:135][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.03-00.16.23:481][310]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.03-00.16.27:326][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.03-00.16.57:872][268]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MultiplayerLevel' took 0.039
+[2016.07.03-00.16.57:874][268]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Tracks/BP/Track15LeftBP] ([1] browsable assets)...
+[2016.07.03-00.16.57:874][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Tracks/BP/Track15LeftBP]
+[2016.07.03-00.16.57:937][268]LogSavePackage: Save=9.73ms
+[2016.07.03-00.16.57:937][268]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/Track15LeftBP_Auto4AB3695FC48DF7D08FBBA5ABAE1BE7511.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/Autosaves/Game/Assets/Tracks/BP/Track15LeftBP_Auto4.uasset'
+[2016.07.03-00.16.57:939][268]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/Autosaves/Game/Assets/Tracks/BP/Track15LeftBP_Auto4.uasset
+[2016.07.03-00.16.57:939][268]LogFileHelpers: Auto-saving content packages took 0.066
+[2016.07.03-00.17.33:702][323]LogSavePackage: Save=9.48ms
+[2016.07.03-00.17.33:702][323]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Saved/Track15LeftBP63FEDF91463CEDE3CFC4B89FCEF16916.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/Tracks/BP/Track15LeftBP.uasset'
+[2016.07.03-00.17.33:705][323]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDieMultiplayer/Content/Assets/Tracks/BP/Track15LeftBP.uasset
+[2016.07.03-00.17.33:943][323]LogSavePackage: Save=156.52ms
+[2016.07.03-00.17.33:943][323]LogSavePa
